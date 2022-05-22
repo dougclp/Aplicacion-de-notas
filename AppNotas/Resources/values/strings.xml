@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AppNotas</string>
+    <string name="action_settings">Settings</string>
+
+	<string name="materias">Lista de Materias</string>
+	<string name="cantEst">Cantidad de Estudiantes: </string>
+	<string name="notaEst">cero</string>
+	<string name="nota">Nota promedio: </string>
+	<string name="imgMateria">img</string>
+	<string name="listEst">Lista de Estudiantes</string>
+
+	<string name="primerNota">Primer nota:</string>
+	<string name="segundaNota">Segunda nota:</string>
+	<string name="notaPromedio">Promedio nota:</string>
+		
+	<string name="listarNotas">Lista de Notas del Estudiante</string>
+
+	<string name="aplicacion">Aplicación de Notas</string>
+
+	<string name="elaborado">Elaborado Por:</string>
+	<string name="douglas">Douglas Enrique Canales López</string>
+	<string name="kenia">Kenia Junieth Fuentes García</string>
+</resources>

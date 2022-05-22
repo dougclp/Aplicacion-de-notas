@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1" >
+        <ImageView
+            android:src="@drawable/examen"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1" />
+        <TextView
+            android:text="@string/primerNota"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/imageView1"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="@string/segundaNota"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/textView1"
+            android:layout_toRightOf="@id/imageView1"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="@string/notaPromedio"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_below="@id/textView2"
+            android:layout_toRightOf="@id/imageView1"
+            android:id="@+id/textView3" />
+        <TextView
+            android:text="@string/notaEst"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_toRightOf="@id/textView1"
+            android:id="@+id/txtPrimerNota" />
+        <TextView
+            android:text="@string/notaEst"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_toRightOf="@id/textView2"
+            android:layout_below="@id/txtPrimerNota"
+            android:id="@+id/txtSegundaNota" />
+        <TextView
+            android:text="@string/notaEst"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_toRightOf="@id/textView3"
+            android:layout_below="@id/txtSegundaNota"
+            android:id="@+id/txtPromedioNota" />
+      
+    </RelativeLayout>
+
+
+</LinearLayout>
